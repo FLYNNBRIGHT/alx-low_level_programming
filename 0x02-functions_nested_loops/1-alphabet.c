@@ -1,14 +1,13 @@
 #include "main.h"
 
+
 /**
- * main - prints the alphabet in lower cases followed by a new line.
+ * print_alphabet - prints the alphabet in lower cases followed by a new line.
  *
  * Return: Always 0 (Success).
  */
 
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
 	char _alphs = 'a';
 
@@ -18,6 +17,4 @@ int main(void)
 		_alphs++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
